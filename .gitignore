@@ -1,0 +1,7 @@
+# Files
+*.pdf
+*.zip
+
+# Folders
+**/experiments
+**/scr
