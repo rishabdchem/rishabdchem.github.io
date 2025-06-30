@@ -1,0 +1,129 @@
+<!-- 
+Preamble.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishab Dutta</title>
+    <link rel="stylesheet" href="../homepage.css">
+  </head>
+
+<!-- 
+Body of the page. 
+-->
+  <body style="margin-left:50;padding:25">
+  
+    <h1>Rishab Dutta</h1>
+    <div class="navigationbar">
+      <a href="../index.html">Home</a>
+      <a class="active" href="research.html">Research</a>
+      <a href="cv.html">CV</a>
+      <a href="publications.html">Publications</a>
+    </div>
+    <p></p>
+  
+    <div class="background">
+
+      <h2>Research interests</h2>
+
+      My broad research motivation is deciphering and discovering quantum phenomena 
+      in interesting chemical and physical systems underlying critical scientific 
+      challenges impacting our world.   
+      Some of my specific technical expertise and interests are mentioned below. 
+
+      <ul>
+        <li>Quantum methods implementable in classical and quantum computers</li>
+        <li>Algebra emerging from many-body quantum mechanics</li>
+        <li>Tensor networks, decompositions, and symmetries</li>
+      </ul>
+
+      I mention some of my past research experiences below. 
+
+      <h2>Yale University</h2>
+
+      <b>Electronic structure calculations with bosons.</b> 
+      A rapidly progressing field in quantum hardware is the circuit quantum electrodynamics (cQED) 
+      <a href="https://doi.org/10.1103/RevModPhys.93.025005">approach</a>,
+      where microwave resonators act as quantum harmonic oscillators and the bosonic quantum 
+      gates are implemented by 
+      <a href="https://doi.org/10.1063/5.0183022">coupling</a>
+      the resonators with a superconducting transmon qubit. 
+      This hybrid qubit-oscillator hardware approach has many advantages over the traditional 
+      qubit-based quantum devices such as more control over noise and has been applied to
+      study various bosonic problems in 
+      <a href="https://doi.org/10.1021/acs.jctc.4c00544">chemistry</a>.
+      We have <a href="https://doi.org/10.1021/acs.jctc.4c01400">shown</a>
+      for the first time how the universality of qubit-oscillator devices 
+      allows us to represent the electronic structure Hamiltonian on bosonic 
+      quantum computers and explore native qubit-qumode gates to represent electronic states.
+
+      <p></p>
+      <b>Bosonic gates for quantum optimization algorithms.</b> 
+      We explored the potential of bosonic qumode gates further for optimization problems. 
+      The Hamiltonians in this case are diagonal in nature, which allows us to compute 
+      expectation vlaues by measuring the number of photons 
+      <a href="https://doi.org/10.1103/PhysRevX.10.021060">inside</a>
+      a microwave resonator.
+      It is known that native qumode gates such as phase space displacement operators 
+      are <a href="https://arxiv.org/abs/2407.10381">hard</a>
+      to mimic using qubit-centric gates. 
+      We have shown for the first time that the expressiveness of such qumode gates coupled to a qubit 
+      can <a href="https://arxiv.org/abs/2501.11735">outperform</a>
+      qubit-centric ansatz circuits for benchmark constrained optimization problems.
+
+      <h2>Rice University</h2>
+
+      <b>Classical computing methods for electron pairing.</b> 
+      It is known that electron pairing in the Hilbert space of a suitable one-electron basis 
+      is <a href="https://doi.org/10.1063/1.3613706">critical</a>
+      for understanding strongly correlated electronic systems. 
+      However, exactly solving the electronic structure problem on a 
+      paired basis is still an impractical problem beyond a certain system size. 
+      My thesis work asked the question: Is it possible to develop classical computing algorithms
+      that can efficiently tackle strong correlation when the problem is only restricted to the 
+      subspace where the electrons are paired? We have shown that the answer is yes for certain 
+      flavors of strongly correlated pairing interactions by developing pair wavefunctions 
+      inspired by <a href="https://doi.org/10.1098/rspa.1953.0198">chemical bonding</a> 
+      and <a href="https://doi.org/10.1103/PhysRev.108.1175">superconductivity</a>. 
+      These newly developed electronic structure methods started from the so-called 
+      antisymmetrized geminal power (AGP) wavefunction where all the pairs were 
+      <a href="https://doi.org/10.1063/1.1704794">identical</a>, 
+      and then brought more  
+      <a href="https://doi.org/10.1021/acs.jctc.0c00807">diversity</a> 
+      to different electron pairs, which can also be 
+      <a href="https://doi.org/10.1063/5.0045006">selectively</a> tuned.
+
+      <p></p>
+      <b>Quantum state preparation algorithms.</b> 
+      Electron pairs are isomorphic to qubits due to their shared <i>su(2)</i> Lie algebraic structure. 
+      This allows AGP to be understood as a multi-qubit state with unique entanglement properties. 
+      The elementary symmetric polynomial (ESP) structure of the AGP allowed us to develop an 
+      efficient quantum state preparation 
+      <a href="https://doi.org/10.1021/acs.jpca.3c00525">algorithm</a>
+      for the qubit-AGP state with potential applications in quantum optimization. 
+      Exploration of the polynomial structure of AGP also allowed us to develop a polynomial 
+      that generalizes the notion of ESP and allowed us to design a quantum state with more 
+      flexibility than AGP. We have shown the resulting binary tree state (BTS) can be 
+      <a href="https://doi.org/10.1063/5.0185375">efficiently</a>
+      simulated on a classical computer, thus introducing a quantum-inspired classical algorithm.
+
+      <h2>Contact</h2>
+
+      Rishab Dutta
+      <br>
+      Pacific Northwest National Laboratory
+      <br>
+      rishab(dot)dutta(at)pnnl(dot)gov
+
+    </div>
+    
+    <p></p>
+    <a href="https://www.linkedin.com/in/rishab-dutta">LinkedIn</a>
+    <a href="https://github.com/rishabdchem">GitHub</a>
+    <a href="https://scholar.google.com/citations?hl=en&user=dHVoWc8AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+  
+  </body>
+</html>
